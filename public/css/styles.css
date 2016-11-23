@@ -9,6 +9,10 @@ body {
   background-color: white;
 }
 
+h1 {
+  vertical-align: top;
+}
+
 #resizeImage {
   height: 450px;
   margin-left: 22%;
@@ -16,4 +20,8 @@ body {
 
 .fontResize {
   font-size: 25px;
+}
+
+.bottomButton {
+  margin-bottom: 50px;
 }
