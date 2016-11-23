@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.jumbotron {
+  color: black;
+  text-align: center;
+  background-color: white;
+}
+
+#resizeImage {
+  height: 450px;
+  margin-left: 22%;
+}
+
+.fontResize {
+  font-size: 25px;
+}
