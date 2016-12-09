@@ -1,9 +1,22 @@
-<h1>Cryptogram Template</h1>
-<form action="/encode">
-  <div class="form-group">
-    <label for="textInput"><span class="fontResize">Enter your text:</span></label>
-    <br><br>
-    <input id="textInput" name="textInput" class="form-control" type="text">
-  </div>
-  <button type="submit" class="btn btn-danger bottomButton">Convert!</button>
-</form>
+  <h1 class="white_text">Encode Words into Melodies</h1>
+  <br>
+  <div class="body_text">
+  <form action="/encode">
+    <div class="form-group">
+      <label for="textInput"><span class="fontResize">Enter text to receive a melody:</span></label>
+      <br><br>
+      <input id="textInput" name="textInput" class="form-control" type="text">
+    </div>
+    <button type="submit" class="btn btn-danger bottomButton">Convert!</button>
+  </form>
+
+  <form action="/decode">
+    <div class="form-group">
+      <label for="textInput"><span class="fontResize">Enter the melody and decipher the word(s):</span></label>
+      <br><br>
+      <input id="textInput" name="textInput_two" class="form-control" type="text" pattern="(+[a-zA-Z]#)">
+    </div>
+    <button type="submit" class="btn btn-danger bottomButton">Convert!</button>
+  </form>
+
+</div>

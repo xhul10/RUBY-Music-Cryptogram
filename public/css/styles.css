@@ -1,12 +1,23 @@
 body {
   background-color: black;
-  color: white;
 }
 
 .jumbotron {
   color: black;
   text-align: center;
-  background-color: white;
+  background-color: #0099cc;
+  height: 170px;
+  padding-top: 10px;
+}
+
+.jumbotron h1 {
+  font-size: 100px;
+  color: white;
+  font-family: 'Bungee', cursive;
+}
+
+.container {
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -14,8 +25,7 @@ h1 {
 }
 
 #resizeImage {
-  height: 450px;
-  margin-left: 22%;
+  height: 380px;
 }
 
 .fontResize {
@@ -24,4 +34,31 @@ h1 {
 
 .bottomButton {
   margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.p_format {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.body_text {
+  color: #0099cc;
+}
+
+.bottom_of_page {
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.white_text {
+  color: white;
+}
+
+.visit_page_font {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Bungee', cursive;
 }
