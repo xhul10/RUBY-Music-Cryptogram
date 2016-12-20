@@ -14,5 +14,6 @@ end
 
 get('/decode') do
   @result = params.fetch('textInput_two').music_decryption()
+  @result2 = params.fetch('textInput_two').music_decryption_two()
   erb(:audiomancy_output_two)
 end

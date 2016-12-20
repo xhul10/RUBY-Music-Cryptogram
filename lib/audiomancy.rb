@@ -60,9 +60,7 @@ class String
 
     outputArray = []
 
-
-    inputArray = self.downcase().split(" ")
-
+    inputArray = self.downcase().split("")
 
 counter = 0
     inputArray.each do |letter|
@@ -78,5 +76,39 @@ counter = 0
       end
     end
     outputArray.join("")
+  end
+
+define_method(:music_decryption_two) do
+    musicCipher_two = {"e" => "ab",
+                       "d#" => "c",
+                       "f#" => "dl",
+                       "c" => "efhp",
+                       "g#" => "gmg",
+                       "f" => "ijy",
+                       "a#" => "kx",
+                       "g" => "n",
+                       "a" => "ot",
+                       "b" => "q",
+                       "d" => "rz",
+                       "c#" => "uvw",
+                       " " => ""}
+
+    outputArray_two = []
+    counter = 0
+
+    inputArray = self.downcase().split("")
+    inputArray.each do |letter|
+      if inputArray[counter+1] == "#" && letter == /[a-gA-G]/
+        note = musicCipher_two.fetch(letter+"#")
+        outputArray_two.push(note)
+        counter = counter + 2
+      elsif letter =~ /[a-gA-G]/
+          outputArray_two.push(musicCipher_two.fetch(letter))
+          counter = counter + 1
+      else
+        counter = counter + 1
+      end
+    end
+    outputArray_two.join(" ")
   end
 end
