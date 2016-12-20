@@ -3,20 +3,8 @@
   <br>
   <h1>
 <h2 class="white_text"><center><%= @result %></center></h2>
+  <br><br><br><br>
+  <center><img src="../img/tone_color_table.png" alt="correspondence table for alphabet" id="resize_tone_color_table"></center>
   <br><br>
-  <div class="well">
-
-  <center><h2></h2></center>
-  <p class="p_format">Each musical note represents one to four possible alphabet letters. For example, the musical note "C#" corresonds to the letters "U", "V", and "W". We took care of the first step by translating musical notes into alphabet letters. However, to completely decipher the message, you will have to look at each letter grouping and extract its hidden meaning.</p>
-  <br>
-  <p class="p_format">For example, the word "LOVE" translates to the musical string "F# A C# C". When you attempt to decipher this melody, the app will return this string: "D/L | + | O/T | + | V/U/W | + | E/F/H/P". The | + | shape is used to clearly separate each letter-grouping. There are four letter-groups in the above example. To extract "LOVE" from these groupings, we select one letter from each group, moving left to right.</p>
-  <br>
-  <p class="p_format">"L | + | O | + | V | + | E "</p>
-  <br>
-  <p class="p_format">It is possible to pull out words from this cipher that were not originally encoded in the first place. The first letter-grouping featured the choice between D and L, and so you might just as well have guessed "DOVE".</p>
-  <br>
-  <p class="p_format">A hint may be necessary in order to solve these riddles. Good luck!</p>
-  </div>
-  <br>
   <center><a href="/"><button type="submit" class="btn btn-danger bottomButton">New Conversion</button></a></center>
 </div>

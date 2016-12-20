@@ -3,7 +3,7 @@
   <head>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="/styles.css" type="text/css">
     <title>Musical Cryptogram</title>
   </head>
   <body>
@@ -11,24 +11,9 @@
       <div class="jumbotron">
         <h1>Audiomancy App</h1>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <%= yield %>
-        </div>
-        <div class="col-md-6 float_right">
-          <div class="white_text visit_page_font">Visit the Audiomancy Homepage:</div>
-            <div class="row">
-              <div class="col-sm-2">
-                <a href="http://www.audiomancy.net/new-page/"><img src="../img/Mandala_Color.jpg" alt="tone color mandala" id="resizeImage"></a>
-                <img src="../img/app_screenshot.jpg" alt="app ss" id="resizeImageTwo">
-              </div>
-              <div class="col-sm-1"></div>
-
-            </div>
-
-        </div>
-      </div>
+      <%= yield %>
     </div>
+    <center><img src="../img/Mandala_Color.jpg" alt="tone color mandala" id="resizeImage"></center>
     <div class="bottom_of_page white_text">design by ezra sandzer-bell | github.com/ezrasandzerbell</div>
   </body>
 </html>

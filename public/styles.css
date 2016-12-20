@@ -75,3 +75,395 @@ h1 {
 .blue_text {
   color: white;
 }
+
+#resize_tone_color_table {
+  width = 80%;
+}
+
+
+.c {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #FF0000;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.c:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #FF0000;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.c:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #FF0000;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+
+.cSharp {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #ff4000;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.cSharp:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #ff4000;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.cSharp:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #ff4000;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+.d {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #ffa500;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.d:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #ffa500;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.d:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #ffa500;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+
+.dSharp {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #ffce00;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.dSharp:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #ffce00;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.dSharp:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #ffce00;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+.e {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #FFFF00;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.e:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #FFFF00;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.e:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #FFFF00;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+.f {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #bdff00;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.f:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #bdff00;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.f:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #bdff00;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+.fSharp {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #008000;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.fSharp:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #008000;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.fSharp:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #008000;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+.g {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #0fbfa9;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.g:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #0fbfa9;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.g:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #0fbfa9;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+
+.gSharp {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #0000ff;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.gSharp:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #0000ff;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.gSharp:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #0000ff;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+.a {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #4b0082;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.a:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #4b0082;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.a:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #4b0082;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+.aSharp {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #ab6bfd;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.aSharp:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #ab6bfd;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.aSharp:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #ab6bfd;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
+
+.b {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  border-style: dotted;
+  border-color: #ee82ee;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.b:hover {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #ee82ee;
+  border-width: thin;
+  font-family: 'Bungee', cursive;
+}
+
+.b:active {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: white;
+  border-style: solid;
+  border-color: #ee82ee;
+  border-width: thick;
+  font-family: 'Bungee', cursive;
+}
