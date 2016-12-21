@@ -493,11 +493,11 @@ $(".b4").click(function() {
                   { $('.a1').click()  ;
                     return false;  }
 
-                  if(key == 38)
+                  if(key == 37)
                    { $('.a1Sharp').click()  ;
                      return false;  }
 
-                   if(key == 40)
+                   if(key == 39)
                     { $('.b1').click()  ;
                       return false;  }
 

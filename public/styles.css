@@ -9,6 +9,11 @@ body {
   background-color: #0099cc;
 }
 
+.title_text:hover {
+    text-decoration: none;
+}
+
+
 h1 {
   vertical-align: top;
 }
@@ -65,12 +70,23 @@ h1 {
    width = 80%;
  }
 
+ .keyboard_header {
+   margin-top: 80px;
+   background-color: #0099cc;
+   color: white;
+   font-family: 'Bungee', cursive;
+ }
+
 .keyboard {
   margin-top: 80px;
   background-color: white;
   width: 800px;
-  height: 200px;
   color: black;
+}
+
+.tone_color_keys {
+  background-color: black;
+  color: white;
 }
 
 .c {
@@ -487,6 +503,7 @@ h1 {
 }
 
 .c1 {
+  background-color: black;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
@@ -528,6 +545,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ff4000;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -562,6 +580,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ffa500;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -597,6 +616,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ffce00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -631,6 +651,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #FFFF00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -665,6 +686,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #bdff00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -699,6 +721,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #008000;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -733,6 +756,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #0fbfa9;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -768,6 +792,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #0000ff;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -802,6 +827,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #4b0082;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -836,6 +862,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ab6bfd;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -866,10 +893,12 @@ h1 {
 }
 
 .b1 {
+  background-color: black;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ee82ee;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -900,6 +929,7 @@ h1 {
 }
 
 .c2 {
+  background-color: black;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
@@ -941,6 +971,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ff4000;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -975,6 +1006,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ffa500;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1010,6 +1042,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ffce00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1044,6 +1077,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #FFFF00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1078,6 +1112,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #bdff00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1112,6 +1147,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #008000;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1146,6 +1182,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #0fbfa9;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1181,6 +1218,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #0000ff;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1215,6 +1253,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #4b0082;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1249,6 +1288,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ab6bfd;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1279,10 +1319,12 @@ h1 {
 }
 
 .b2 {
+  background-color: black;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ee82ee;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1313,6 +1355,7 @@ h1 {
 }
 
 .c3 {
+  background-color: black;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
@@ -1354,6 +1397,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ff4000;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1388,6 +1432,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ffa500;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1423,6 +1468,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ffce00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1457,6 +1503,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #FFFF00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1491,6 +1538,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #bdff00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1525,6 +1573,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #008000;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1559,6 +1608,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #0fbfa9;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1594,6 +1644,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #0000ff;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1628,6 +1679,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #4b0082;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1662,6 +1714,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ab6bfd;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1692,10 +1745,12 @@ h1 {
 }
 
 .b3 {
+  background-color: black;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ee82ee;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1726,6 +1781,7 @@ h1 {
 }
 
 .c4 {
+  background-color: black;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
@@ -1767,6 +1823,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ff4000;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1801,6 +1858,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ffa500;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1836,6 +1894,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ffce00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1870,6 +1929,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #FFFF00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1904,6 +1964,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #bdff00;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1938,6 +1999,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #008000;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -1972,6 +2034,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #0fbfa9;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -2007,6 +2070,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #0000ff;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -2041,6 +2105,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #4b0082;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -2075,6 +2140,7 @@ h1 {
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ab6bfd;
   border-width: thin;
   font-family: 'Bungee', cursive;
@@ -2105,10 +2171,12 @@ h1 {
 }
 
 .b4 {
+  background-color: black;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   border-style: dotted;
+  color: white;
   border-color: #ee82ee;
   border-width: thin;
   font-family: 'Bungee', cursive;

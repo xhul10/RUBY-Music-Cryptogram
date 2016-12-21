@@ -1,4 +1,4 @@
-<h1 class="white_text">Encode Words into Melodies</h1>
+<center><h1 class="white_text">Encode Words into Melodies</h1></center>
 <br>
 <div class="well" id="background_blue">
 <center><p class="p_format blue_text">MELODIC ENCRYPTION APP | BETA V.0.2</p></center>
@@ -7,24 +7,32 @@
 </div>
 <br>
 <div class="body_text">
-<form action="/encode">
-  <div class="form-group">
-    <label for="textInput"><span class="fontResize">Enter text to receive a melody:</span></label>
-    <br><br>
-    <input id="textInput" name="textInput" class="form-control" type="text">
-  </div>
-  <button type="submit" class="btn btn-danger bottomButton">Convert!</button>
-</form>
+<div class="row">
+  <form action="/encode">
+    <div class="col-md-6">
+      <label for="textInput"><span class="fontResize">Enter text to receive a melody:</span></label>
+    </div>
+    <div class="col-md-4">
+      <input id="textInput" name="textInput" class="form-control" type="text">
+    </div>
+    <div class="col-md-2">
+      <button type="submit" class="btn btn-danger bottomButton">Convert!</button>
+    </div>
+  </form>
+</div>
 
 <form action="/decode">
-  <div class="form-group">
-    <label for="textInput"><span class="fontResize">Enter the melody and decipher the word(s):</span></label>
-    <br><br>
-    <input id="textInput" name="textInput_two" class="form-control" type="text" pattern="+[a-zA-Z]#">
+  <div class="row">
+    <div class="col-md-6">
+      <label for="textInput"><span class="fontResize">Enter melody and decipher the word(s):</span></label>
+    </div>
+    <div class="col-md-4">
+      <input id="textInput" name="textInput_two" class="form-control" type="text" pattern="+[a-zA-Z]#">
+    </div>
+    <div class="col-md-2">
+      <button type="submit" class="btn btn-danger bottomButton">Convert!</button>
+    </div>
   </div>
-  <button type="submit" class="btn btn-danger bottomButton">Convert!</button>
 </form>
-
-<a href="/keyboard">Go to keyboard</a>
 
 </div>
