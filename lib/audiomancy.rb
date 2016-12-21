@@ -1,4 +1,3 @@
-
 class String
   define_method(:music_encryption) do
 
@@ -64,10 +63,10 @@ class String
 
 counter = 0
     inputArray.each do |letter|
-      if inputArray[counter+1] == "#" && letter == /[a-gA-G]/
+      if inputArray[counter+1] == "#" && letter =~ /[a-gA-G]/
         note = musicCipher.fetch(letter+"#")
         outputArray.push(note)
-        counter = counter + 2
+        counter = counter + 1
       elsif letter =~ /[a-gA-G]/
           outputArray.push(musicCipher.fetch(letter))
           counter = counter + 1
@@ -98,10 +97,10 @@ define_method(:music_decryption_two) do
 
     inputArray = self.downcase().split("")
     inputArray.each do |letter|
-      if inputArray[counter+1] == "#" && letter == /[a-gA-G]/
+      if letter =~ /[a-gA-G]/ && inputArray[counter+1] == "#"
         note = musicCipher_two.fetch(letter+"#")
         outputArray_two.push(note)
-        counter = counter + 2
+        counter = counter + 1
       elsif letter =~ /[a-gA-G]/
           outputArray_two.push(musicCipher_two.fetch(letter))
           counter = counter + 1
