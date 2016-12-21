@@ -53,7 +53,7 @@ class String
                    "g" => "<div class='col-md-1 g' type='button' onclick='playAudio()'>n</div>",
                    "a" => "<div class='col-md-1 a' type='button' onclick='playAudio()'>o</div><div class='col-md-1 a' type='button' onclick='playAudio()'>t</div>",
                    "b" => "<div class='col-md-1 b' type='button' onclick='playAudio()'>q</div>",
-                   "d" => "<div class='col-md-1 d' type='button' onclick='playAudio()'>r</div><div class='col-md-1 d type='button' onclick='playAudio()'z</div>",
+                   "d" => "<div class='col-md-1 d' type='button' onclick='playAudio()'>r</div><div class='col-md-1 d type='button' onclick='playAudio()'>z</div>",
                    "c#" => "<div class='col-md-1 cSharp' type='button' onclick='playAudio()'>u</div><div class='col-md-1 cSharp' type='button' onclick='playAudio()'>v</div><div class='col-md-1 cSharp' type='button' onclick='playAudio()'>w</div>",
                    " " => ""}
 

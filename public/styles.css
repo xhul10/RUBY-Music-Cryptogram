@@ -1,23 +1,12 @@
 body {
-  background-color: white;
+  background-color: black;
+  color: white;
 }
 
 .jumbotron {
   color: black;
   text-align: center;
-  background-color: #0099cc;
-  height: 25%;
-  padding-top: 10px;
-}
-
-.jumbotron h1 {
-  font-size: 6em;
-  color: white;
-  font-family: 'Bungee', cursive;
-}
-
-.container {
-  margin-bottom: 40px;
+  background-color: white;
 }
 
 h1 {
@@ -25,11 +14,8 @@ h1 {
 }
 
 #resizeImage {
-  height: 310px;
-}
-
-#resizeImageTwo {
-  width: 450px;
+  height: 450px;
+  margin-left: 22%;
 }
 
 .fontResize {
@@ -38,48 +24,7 @@ h1 {
 
 .bottomButton {
   margin-bottom: 50px;
-  font-size: 30px;
 }
-
-.p_format {
-  font-family: sans-serif;
-  font-size: 20px;
-}
-
-.body_text {
-  color: #0099cc;
-}
-
-.bottom_of_page {
-  padding-bottom: 40px;
-  text-align: center;
-  font-size: 20px;
-}
-
-.white_text {
-  color: white;
-}
-
-.visit_page_font {
-  margin-top: 20px;
-  font-size: 20px;
-  margin-left: 6%;
-  font-family: 'Bungee', cursive;
-}
-
-#background_blue {
-  background-color: #0099cc;
-  text-align: justify;
-}
-
-.blue_text {
-  color: white;
-}
-
-#resize_tone_color_table {
-  width = 80%;
-}
-
 
 .c {
   text-align: center;
@@ -87,30 +32,33 @@ h1 {
   font-size: 24px;
   color: white;
   border-style: dotted;
-  border-color: #FF0000;
+  border-color: #ff4000;
   border-width: thin;
   font-family: 'Bungee', cursive;
-}
+  }
 
 .c:hover {
+
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
-  border-color: #FF0000;
+  border-color: #ff0000;
   border-width: thin;
   font-family: 'Bungee', cursive;
 }
 
 .c:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #FF0000;
+   -moz-box-shadow:inset 0px 0px 0px 2px #FF0000;
+   box-shadow:inset 0px 0px 0px 2px #FF0000;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #FF0000;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -119,7 +67,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #ff4000;
   border-width: thin;
@@ -138,13 +85,15 @@ h1 {
 }
 
 .cSharp:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #ff4000;
+   -moz-box-shadow:inset 0px 0px 0px 2px #ff4000;
+   box-shadow:inset 0px 0px 0px 2px #ff4000;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #ff4000;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -152,7 +101,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #ffa500;
   border-width: thin;
@@ -171,13 +119,15 @@ h1 {
 }
 
 .d:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #ffa500;
+   -moz-box-shadow:inset 0px 0px 0px 2px #ffa500;
+   box-shadow:inset 0px 0px 0px 2px #ffa500;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #ffa500;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -186,7 +136,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #ffce00;
   border-width: thin;
@@ -205,13 +154,15 @@ h1 {
 }
 
 .dSharp:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #ffce00;
+   -moz-box-shadow:inset 0px 0px 0px 2px #ffce00;
+   box-shadow:inset 0px 0px 0px 2px #ffce00;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #ffce00;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -219,7 +170,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #FFFF00;
   border-width: thin;
@@ -238,13 +188,15 @@ h1 {
 }
 
 .e:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #FFFF00;
+   -moz-box-shadow:inset 0px 0px 0px 2px #FFFF00;
+   box-shadow:inset 0px 0px 0px 2px #FFFF00;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #FFFF00;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -252,7 +204,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #bdff00;
   border-width: thin;
@@ -271,13 +222,15 @@ h1 {
 }
 
 .f:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #bdff00;
+   -moz-box-shadow:inset 0px 0px 0px 2px #bdff00;
+   box-shadow:inset 0px 0px 0px 2px #bdff00;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #bdff00;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -285,7 +238,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #008000;
   border-width: thin;
@@ -304,13 +256,15 @@ h1 {
 }
 
 .fSharp:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #008000;
+   -moz-box-shadow:inset 0px 0px 0px 2px #008000;
+   box-shadow:inset 0px 0px 0px 2px #008000;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #008000;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -318,7 +272,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #0fbfa9;
   border-width: thin;
@@ -337,13 +290,15 @@ h1 {
 }
 
 .g:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #0fbfa9;
+   -moz-box-shadow:inset 0px 0px 0px 2px #0fbfa9;
+   box-shadow:inset 0px 0px 0px 2px #0fbfa9;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #0fbfa9;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -352,7 +307,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #0000ff;
   border-width: thin;
@@ -371,13 +325,15 @@ h1 {
 }
 
 .gSharp:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #0000ff;
+   -moz-box-shadow:inset 0px 0px 0px 2px #0000ff;
+   box-shadow:inset 0px 0px 0px 2px #0000ff;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #0000ff;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -385,7 +341,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #4b0082;
   border-width: thin;
@@ -404,13 +359,15 @@ h1 {
 }
 
 .a:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #4b0082;
+   -moz-box-shadow:inset 0px 0px 0px 2px #4b0082;
+   box-shadow:inset 0px 0px 0px 2px #4b0082;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #4b0082;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -418,7 +375,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #ab6bfd;
   border-width: thin;
@@ -437,13 +393,15 @@ h1 {
 }
 
 .aSharp:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #ab6bfd;
+   -moz-box-shadow:inset 0px 0px 0px 2px #ab6bfd;
+   box-shadow:inset 0px 0px 0px 2px #ab6bfd;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #ab6bfd;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
 
@@ -451,7 +409,6 @@ h1 {
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
-  color: white;
   border-style: dotted;
   border-color: #ee82ee;
   border-width: thin;
@@ -470,12 +427,14 @@ h1 {
 }
 
 .b:active {
+  -webkit-box-shadow:inset 0px 0px 0px 2px #ee82ee;
+   -moz-box-shadow:inset 0px 0px 0px 2px #ee82ee;
+   box-shadow:inset 0px 0px 0px 2px #ee82ee;
   text-align: center;
   vertical-align: middle;
   font-size: 24px;
   color: white;
   border-style: solid;
   border-color: #ee82ee;
-  border-width: thick;
   font-family: 'Bungee', cursive;
 }
