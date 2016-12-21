@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".b:active").click(function(event) {
+    $(".b").click(function(event) {
     var audioElement = document.createElement('audio');
 
     $("audioElement").setAttribute('src', '/audio/bnote.wav');
