@@ -9,10 +9,18 @@ body {
   background-color: #0099cc;
 }
 
+.start_Button {
+  width: 6em;
+  height: 3em;
+}
+
+.encrypted_div {
+  
+}
+
 .title_text:hover {
     text-decoration: none;
 }
-
 
 h1 {
   vertical-align: top;

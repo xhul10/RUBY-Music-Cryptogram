@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+  $("#start_button").click(function() {
+
+  encrypted_div = $("div#encrypted_div").children().children().children("div")
+  for(var i=0; i < encrypted_div.length-1; i++) {
+    setInterval(function(){
+      note = encrypted_div[i];
+      note.click();
+    }, 500);
+  };
+  });
+
 // ------ Code for clickable divs (encrypt/decrypt)
 
   $(".c").click(function() {
