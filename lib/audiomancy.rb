@@ -43,18 +43,18 @@ class String
 
   define_method(:music_decryption) do
 
-    musicCipher = {"e" => "<div class='col-md-1 e' type='button' onclick='playAudio()'>a</div><div class='col-md-1 e' type='button' onclick='playAudio()'>b</div>",
-                   "d#" => "<div class='col-md-1 dSharp' type='button' onclick='playAudio()'>c</div>",
-                   "f#" => "<div class='col-md-1 fSharp' type='button' onclick='playAudio()'>d</div><div class='col-md-1 fSharp' type='button' onclick='playAudio()'>l</div>",
-                   "c" => "<div class='col-md-1 c' type='button' onclick='playAudio()'>e</div><div class='col-md-1 c' type='button' onclick='playAudio()'>f</div><div class='col-md-1 c' type='button' onclick='playAudio()'>h</div><div class='col-md-1 c' type='button' onclick='playAudio()'>p</div>",
-                   "g#" => "<div class='col-md-1 gSharp' type='button' onclick='playAudio()'>g</div><div class='col-md-1 gSharp' type='button' onclick='playAudio()'>m</div><div class='col-md-1 gSharp' type='button' onclick='playAudio()'>g</div>",
-                   "f" => "<div class='col-md-1 f' type='button' onclick='playAudio()'>i</div><div class='col-md-1 f' type='button' onclick='playAudio()'>j</div><div class='col-md-1 f' type='button' onclick='playAudio()'>y</div>",
-                   "a#" => "<div class='col-md-1 aSharp' type='button' onclick='playAudio()'>k</div><div class='col-md-1 aSharp' type='button' onclick='playAudio()'>x</div>",
-                   "g" => "<div class='col-md-1 g' type='button' onclick='playAudio()'>n</div>",
-                   "a" => "<div class='col-md-1 a' type='button' onclick='playAudio()'>o</div><div class='col-md-1 a' type='button' onclick='playAudio()'>t</div>",
-                   "b" => "<div class='col-md-1 b' type='button' onclick='playAudio()'>q</div>",
-                   "d" => "<div class='col-md-1 d' type='button' onclick='playAudio()'>r</div><div class='col-md-1 d type='button' onclick='playAudio()'>z</div>",
-                   "c#" => "<div class='col-md-1 cSharp' type='button' onclick='playAudio()'>u</div><div class='col-md-1 cSharp' type='button' onclick='playAudio()'>v</div><div class='col-md-1 cSharp' type='button' onclick='playAudio()'>w</div>",
+    musicCipher = {"e" => "<div class='col-md-1 e'>a</div><div class='col-md-1 e'>b</div>",
+                   "d#" => "<div class='col-md-1 dSharp'>c</div>",
+                   "f#" => "<div class='col-md-1 fSharp'>d</div><div class='col-md-1 fSharp'>l</div>",
+                   "c" => "<div class='col-md-1 c'>e</div><div class='col-md-1 c'>f</div><div class='col-md-1 c'>h</div><div class='col-md-1 c'>p</div>",
+                   "g#" => "<div class='col-md-1 gSharp'>g</div><div class='col-md-1 gSharp'>m</div><div class='col-md-1 gSharp'>g</div>",
+                   "f" => "<div class='col-md-1 f'>i</div><div class='col-md-1 f'>j</div><div class='col-md-1 f'>y</div>",
+                   "a#" => "<div class='col-md-1 aSharp'>k</div><div class='col-md-1 aSharp'>x</div>",
+                   "g" => "<div class='col-md-1 g'>n</div>",
+                   "a" => "<div class='col-md-1 a'>o</div><div class='col-md-1 a'>t</div>",
+                   "b" => "<div class='col-md-1 b'>q</div>",
+                   "d" => "<div class='col-md-1 d'>r</div><div class='col-md-1 d'>z</div>",
+                   "c#" => "<div class='col-md-1 cSharp'>u</div><div class='col-md-1 cSharp'>v</div><div class='col-md-1 cSharp'>w</div>",
                    " " => ""}
 
     outputArray = []
