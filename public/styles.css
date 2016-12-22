@@ -6,7 +6,8 @@ body {
 .jumbotron {
   color: white;
   text-align: center;
-  background-color: #0099cc;
+  background-color: black;
+  font-family: 'Playfair Display', serif;
 }
 
 .start_Button {
@@ -15,7 +16,7 @@ body {
 }
 
 .encrypted_div {
-  
+
 }
 
 .title_text:hover {
@@ -30,6 +31,10 @@ h1 {
   height: 450px;
 }
 
+#resizeTitle {
+  width: 900px;
+}
+
 .fontResize {
   font-size: 25px;
 }
@@ -40,11 +45,11 @@ h1 {
 
  .p_format {
    font-family: sans-serif;
-   font-size: 20px;
+   font-size: 24px;
  }
 
  .body_text {
-   color: #0099cc;
+   color: white;
  }
 
  .bottom_of_page {
@@ -64,8 +69,8 @@ h1 {
    font-family: 'Bungee', cursive;
   }
 
- #background_blue {
-   background-color: #0099cc;
+ #background_black {
+   background-color: #000000;
    text-align: justify;
  }
 
@@ -75,7 +80,7 @@ h1 {
  }
 
  #resize_tone_color_table {
-   width = 80%;
+   width: 80%;
  }
 
  .keyboard_header {
@@ -95,6 +100,10 @@ h1 {
 .tone_color_keys {
   background-color: black;
   color: white;
+}
+
+#footer {
+  width: 1000px;
 }
 
 .c {

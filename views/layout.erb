@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -11,11 +11,17 @@
   <body>
     <div class="container">
       <a href="/"><div class="jumbotron">
-        <h1>Audiomancy App</h1>
+        <img src="../img/title.png" alt="" id="resizeTitle"/>
       </div></a>
       <%= yield %>
     </div>
     <center><a href="/keyboard"><img src="../img/Mandala_Color.jpg" alt="tone color mandala" id="resizeImage"></a></center>
-    <div class="bottom_of_page white_text">design by ezra sandzer-bell | github.com/ezrasandzerbell</div>
+    <div class="bottom_of_page white_text">
+      design by ezra sandzer-bell | github.com/ezrasandzerbell
+      <br>
+    </div>
+    <center><a href="http://www.audiomancy.net" style="font-size: 50px; font-family: 'Playfair Display', serif;">AUDIOMANCY.NET</a>
+      <br>
+    <img src="../img/triangles.png" alt="triangles footer" id="footer"></center>
   </body>
 </html>
